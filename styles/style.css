@@ -492,3 +492,9 @@ footer.global-footer {
   margin-bottom: 0.75rem;
   color: var(--primary-900);
 }
+
+@media (max-width: 768px) {
+  .services-catalog {
+    grid-template-columns: 1fr;
+  }
+}
