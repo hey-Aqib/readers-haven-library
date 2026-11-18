@@ -406,7 +406,15 @@ main {
   gap: 2rem;
 }
 
-.card {
+
+/* ---------------- Services Page (services.html) ---------------- */
+.services-catalog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.service-feature-card {
   background: var(--white);
   border: 1px solid var(--neutral-300);
   border-radius: var(--radius-md);
@@ -414,6 +422,7 @@ main {
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
 }
+
 
 .card:hover {
   box-shadow: var(--shadow-lg);
@@ -426,7 +435,8 @@ main {
   display: inline-block;
 }
 
-.card h3 {
+
+.service-feature-card h3 {
   font-family: var(--font-serif);
   font-size: 1.35rem;
   margin-bottom: 0.75rem;
@@ -547,6 +557,26 @@ footer.global-footer {
   }
 }
 
+.service-steps-list {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+
+.service-feature-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-900);
+}
+
+@media (max-width: 768px) {
+  .services-catalog {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ---------------- Membership Page (membership.html) ---------------- */
 .pricing-matrix {
