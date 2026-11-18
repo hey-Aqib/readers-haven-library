@@ -467,3 +467,106 @@ footer.global-footer {
     font-size: 2rem;
   }
 }
+
+
+/* ---------------- Membership Page (membership.html) ---------------- */
+.pricing-matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.pricing-card {
+  background: var(--white);
+  border: 2px solid var(--neutral-300);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem 1.75rem;
+  text-align: center;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.pricing-card.popular {
+  border-color: var(--accent-gold);
+}
+
+.popular-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--accent-gold);
+  color: var(--neutral-900);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.pricing-plan-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--primary-900);
+  margin-bottom: 0.5rem;
+}
+
+.pricing-amount {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--primary-800);
+  font-family: var(--font-serif);
+  margin-bottom: 1.5rem;
+}
+
+.pricing-amount span {
+  font-size: 0.9rem;
+  font-family: var(--font-sans);
+  color: var(--neutral-600);
+  font-weight: normal;
+}
+
+.pricing-features-list {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.pricing-features-list li {
+  padding: 0.55rem 0;
+  border-bottom: 1px dashed var(--neutral-300);
+  font-size: 0.92rem;
+}
+
+.pricing-features-list li strong {
+  color: var(--primary-900);
+}
+
+.policy-card {
+  background-color: var(--accent-gold-light);
+  border-left: 4px solid var(--accent-gold);
+  padding: 1.75rem;
+  border-radius: var(--radius-sm);
+}
+
+.policy-card h3 {
+  color: var(--primary-900);
+  margin-bottom: 0.75rem;
+  font-family: var(--font-serif);
+}
+
+.policy-list {
+  margin-left: 1.5rem;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
