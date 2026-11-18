@@ -1,3 +1,4 @@
+
 /* ==========================================================================
    Readers' Haven Public Library - Shared Master Stylesheet
    DevOps Fundamentals (SEST4663) - Assignment 02
@@ -632,6 +633,7 @@ main {
   border-color: var(--primary-700);
   box-shadow: 0 0 0 3px rgba(41, 92, 142, 0.15);
 }
+
 
 /* ---------------- About Page (about.html) ---------------- */
 .about-block {
