@@ -344,6 +344,7 @@ main {
   transition: var(--transition);
 }
 
+
 .card:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-3px);
@@ -362,7 +363,6 @@ main {
   margin-bottom: 0.75rem;
   color: var(--primary-900);
 }
-
 
 /* ---------------- UNIFIED SHARED FOOTER ---------------- */
 footer.global-footer {
@@ -485,3 +485,10 @@ footer.global-footer {
   line-height: 1.7;
 }
 
+
+.service-feature-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  margin-bottom: 0.75rem;
+  color: var(--primary-900);
+}
