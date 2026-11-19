@@ -1,15 +1,10 @@
 {
   "name": "readers-haven-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Readers Haven Public Library Website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/*.html --dist-dir dist --public-url ./"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "parcel": "^2.16.4"
   }
